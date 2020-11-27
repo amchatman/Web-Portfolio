@@ -85,3 +85,39 @@ body{
   font-size:12px;
   margin:30px 40px 30px 40px;
 }
+@media only screen and (max-width:600px){
+  .navigation,.footer{
+    display:flex;
+    margin:8px auto;
+    padding-left:0px;
+    border:1px solid black;
+    height:28px;
+  }
+  .navigation ul, .footer ul{
+    margin:0 auto;
+  }
+  .navigation li, .footer li{
+    margin:0px 10px 0px 10px;
+  }
+  .date,.icon{
+    display:none;
+  }
+  .introduction,.projects{
+  left:0;
+  text-align:center;
+  }
+  .introduction h1{
+    font-size:25px;
+    padding-top:75px;
+  }
+  .introduction hr{
+    width:auto;
+    margin-top:10px;
+  }
+  .introduction p{
+    width:auto;
+  }
+  .footer-border{
+    left:0px;
+  }
+}
