@@ -66,12 +66,19 @@ body{
 }
 .project-col{
   display:inline-block;
+  font-size:12px;
   width:194px;
   height:294px;
   margin:50px 0px 0px 50px;
   padding:5px;
   border:1px solid black;
   box-shadow:-4px 4px black;
+}
+.project-col:nth-child(2){
+    background-image: url(images/calc-light-mode-2.png);
+    background-repeat: no-repeat;
+    background-size:144px 244px;
+    background-position:center;
 }
 .footer-border{
   border: 1px dashed black;
@@ -99,6 +106,17 @@ body{
   display:inline-block;
   font-size:12px;
   margin:30px 40px 30px 40px;
+}
+.resources-list{
+  width:900px;
+  margin:20px auto;
+  border:1px solid black;
+}
+.resources-list li{
+  list-style:none;
+  font-size:12px;
+  padding:5px 10px 5px 10px;
+
 }
 /* Mobile Media settings */
 @media only screen and (max-width:600px){
