@@ -22,20 +22,21 @@
   </div>
     <div class="resources">
         <ul>
-          <li>Html</li>
-          <li>Css</li>
-          <li>Javascript</li>
-          <li>Color</li>
-          <li>Images</li>
+          <li onclick="showList()">Html</li>
+          <li onclick="cssList()">Css</li>
+          <li onclick="javaList()"> Javascript</a></li>
+          <li onclick="colorList()">Color</a></li>
+          <li onclick="imgList()">Images</a></li>
         </ul>
     </div>
     <div class="resources-list">
-      <div class="html"></div>
-        <ul>
+      <div id="html">
+        <ul id="html-list">
           <li>Toptal -HTML Arrows</li>
         </ul>
-      <div class="css">
-        <ul>
+      </div>
+      <div id="css">
+        <ul id="css-list">
           <li>Animtable Css properties</li>
           <li>Free Frontend -Css
           <li>Cool Css Animation</li>
@@ -48,13 +49,13 @@
           <li>MarkSheet Css Animation</li>
         </ul>
       </div>
-      <div class="javascript">
-        <ul>
+      <div id="javascript">
+        <ul id="java-list">
           <li>JavaScript Clean Code - Best Practices</li>
         </ul>
       </div>
-      <div class="color">
-        <ul>
+      <div id="color">
+        <ul id="color-list">
           <li>Adobe Color</li>
           <li>Canva Color Wheel</li>
           <li>Color Calculator</li>
@@ -64,8 +65,8 @@
           <li>Material Design Colors</li>
         </ul>
       </div>
-      <div class="image-section">
-        <ul>
+      <div id="image-section">
+        <ul id="image-section-list">
           <li>BlackIllustraions</li>
           <li>Coverr</li>
           <li>Pexels</li>
@@ -76,14 +77,15 @@
       </div>
   </div>
 
+  <hr class="footer-border">
+  <div class="footer">
+      <ul>
+        <li>Github</li>
+        <li>Twitter</li>
+        <li>Email</li>
+      </ul>
+  </div>
 
-    <div class="footer">
-        <ul>
-          <li>Github</li>
-          <li>Twitter</li>
-          <li>Email</li>
-        </ul>
-    </div>
 
   </body>
   <script src="script.js"></script>

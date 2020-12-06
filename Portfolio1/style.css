@@ -91,6 +91,11 @@ body{
   position:relative;
   left:125px;
   margin-top:35px;
+  margin-bottom:55px;
+  padding:15px;
+  width:500px;
+  border:1px solid black;
+  box-shadow:-4px 4px black;
 }
 .resources{
   display:flex;
@@ -107,6 +112,9 @@ body{
   font-size:12px;
   margin:30px 40px 30px 40px;
 }
+.resources li:hover{
+  border-bottom:1px solid black;
+}
 .resources-list{
   width:900px;
   margin:20px auto;
@@ -116,8 +124,15 @@ body{
   list-style:none;
   font-size:12px;
   padding:5px 10px 5px 10px;
-
 }
+.resources-list li:hover{
+  background:black;
+  color:white;
+}
+ #html-list,#css-list, #java-list,#color-list,#image-section-list{
+display:none;
+}
+
 /* Mobile Media settings */
 @media only screen and (max-width:600px){
   .navigation,.footer{
