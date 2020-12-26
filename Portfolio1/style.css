@@ -32,6 +32,7 @@ body{
   position:relative;
   left:125px;
 }
+
 .introduction h1{
   font-size:25px;
   padding-bottom:5px;
@@ -75,7 +76,7 @@ body{
   box-shadow:-4px 4px black;
 }
 .project-col:nth-child(2){
-    background-image: url(images/calc-light-mode-2.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-size:144px 244px;
     background-position:center;
@@ -97,6 +98,12 @@ body{
   border:1px solid black;
   box-shadow:-4px 4px black;
 }
+.project-content{
+  margin:0 auto;
+  text-align:center;
+  font-family:monospace;
+  font-size:100px;
+}
 .resources{
   display:flex;
   margin:20px auto;
@@ -111,6 +118,7 @@ body{
   display:inline-block;
   font-size:12px;
   margin:30px 40px 30px 40px;
+  cursor:pointer;
 }
 .resources li:hover{
   border-bottom:1px solid black;
@@ -126,8 +134,12 @@ body{
   padding:5px 10px 5px 10px;
 }
 .resources-list li:hover{
-  background:black;
+  background:grey;
   color:white;
+}
+.resources-list a{
+  text-decoration:none;
+  color:black;
 }
  #html-list,#css-list, #java-list,#color-list,#image-section-list{
 display:none;
@@ -204,11 +216,12 @@ display:none;
 
 }
 /*Prefer color scheme settings go here*/
+/*
 @media (prefers-color-scheme:dark){
   body{
       background:black;
   }
-  .navigation a, .date, .introduction, .projects,.footer,.description{
+  .navigation a, .date, .introduction, .projects,.footer,.description,.resources-list a{
     color:white;
   }
   .introduction hr{
@@ -226,8 +239,8 @@ display:none;
     border-bottom:1px solid white;
   }
   .resources-list li:hover{
-    background:white;
-    color:black;
+    background:grey;
+  }
   .footer-border{
     border 1px dashed white;
   }
@@ -236,4 +249,4 @@ display:none;
         border:1px solid white;
     }
   }
-}
+}*/
